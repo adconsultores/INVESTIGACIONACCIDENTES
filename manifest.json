@@ -1,0 +1,20 @@
+{
+    "name": "An\u00e1lisis de Investigaciones",
+    "short_name": "An\u00e1lisisGPT",
+    "start_url": "https://chatgpt.com/g/g-67595cffc070819183b960147c66075f-analisis-de-investigaciones-accidentes",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0078D7",
+    "icons": [
+        {
+            "src": "icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
