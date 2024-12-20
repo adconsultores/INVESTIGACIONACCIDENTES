@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,7 +7,7 @@
     <link rel="manifest" href="./manifest.json">
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js')
+            navigator.serviceWorker.register('./sw.js')
                 .then((registration) => {
                     console.log('Service Worker registrado:', registration);
                 })
@@ -19,7 +18,10 @@
     </script>
 </head>
 <body>
-    <h1>Análisis de Investigaciones</h1>
-    <p>Puedes usar esta aplicación como una app independiente.</p>
+    <script>
+        // Redirigir automáticamente al enlace del GPT
+        window.location.href = "https://chatgpt.com/g/g-67595cffc070819183b960147c66075f-analisis-de-investigaciones-accidentes";
+    </script>
+    <p>Redirigiendo a la aplicación...</p>
 </body>
 </html>
